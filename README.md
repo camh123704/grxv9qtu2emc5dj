@@ -18,14 +18,6 @@ This project is an end-to-end pipeline for generating **targeted summaries** fro
 4. **Targeted Summarization**  
    Summarizes the transcript using a [LLaMA](https://ai.meta.com/resources/models-and-libraries/llama/) language model, optionally focusing on specific queries, aspects, or roles.
 
-### 🧠 Use Case
-
-Ideal for researchers, developers, or teams who want to:
-
-- Summarize long meetings without reading full transcripts  
-- Generate summaries **focused on specific participants, topics, or questions**  
-- Evaluate how well large language models perform **targeted summarization**
-
 ### 📂 Input Format
 
 - Accepts video files: `.mp4`, `.mov`, `.mkv`, etc.
