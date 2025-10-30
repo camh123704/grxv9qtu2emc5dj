@@ -10,13 +10,13 @@ This project is an end-to-end pipeline for generating **targeted summaries** fro
    Demuxes the audio from video files and converts it to a clean `.wav` format.
 
 2. **Speaker Diarization**  
-   Identifies and segments speakers using [pyannote-audio](https://github.com/pyannote/pyannote-audio).
+   Identifies and segments speakers using [pyannote-audio](https://huggingface.co/pyannote/speaker-diarization-3.1).
 
 3. **Transcription**  
-   Transcribes diarized audio using [OpenAI Whisper](https://github.com/openai/whisper).
+   Transcribes diarized audio using [OpenAI Whisper](https://huggingface.co/openai/whisper-large-v3).
 
 4. **Targeted Summarization**  
-   Summarizes the transcript using a [LLaMA](https://ai.meta.com/resources/models-and-libraries/llama/) language model, optionally focusing on specific queries, aspects, or roles.
+   Summarizes the transcript using a [LLaMA](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) language model, optionally focusing on specific queries, aspects, or roles.
 
 ### 📂 Input Format
 
