@@ -2,7 +2,7 @@
 
 ## 📝 Meeting Summarizer Pipeline
 
-This project is an end-to-end pipeline for generating **targeted summaries** from recorded meeting files (e.g., `.mp4`, `.mov`). It processes raw recordings into structured, speaker-aware summaries using a combination of state-of-the-art tools in diarization, transcription, and large language models.
+This project is an end-to-end pipeline for generating summaries from recorded meeting files (e.g., `.mp4`, `.mov`). It processes raw recordings into structured, speaker-aware summaries using a combination of  tools in diarization, transcription, and large language models.
 
 ### 🔧 Pipeline Overview
 
@@ -25,3 +25,5 @@ This project is an end-to-end pipeline for generating **targeted summaries** fro
   - `.wav` file (audio)
   - speaker-attributed transcript
   - one or more targeted summaries
+
+Note: Above code uses downloaded models from Hugging Face. Code can be modified to utilize Hugging Face Tokens instead.
